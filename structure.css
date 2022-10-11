@@ -1,0 +1,126 @@
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.img_container {
+    padding-left: 50px;
+}
+
+.animeimg {
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    line-height: 20px;
+}
+
+.my_hobbies {
+    font-family: Verdana;
+    padding: 10px 0px 0px 20px;
+}
+
+.my_hobbies:hover {
+    color:rgb(225, 75, 255);
+}
+
+.hobbies_text {
+    font-family: Verdana;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.hobbies_text li:hover {
+    color:beige;
+}
+
+.contact_withme {
+    border: 2px double rgb(255, 164, 250); 
+    width: 243px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#message {
+    font-family: Verdana;
+    letter-spacing: -1px;
+    width: 200px;
+}
+
+.work_exp {
+    padding: 10px 0px 0px 20px;
+}
+
+.work_tbody {
+    font-family: Verdana;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.bg-green {
+    background-color: rgb(61, 255, 110);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.telegram_btn {
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 0, 191);
+    transition: all .3s;
+}
+
+.telegram_btn:hover {
+    color:rgb(255, 129, 223)
+}
+
+.telegram_btn:active {
+    color:blue;
+}
+
+.contact_send_btn {
+    font-family: Verdana;
+    font-size: 18px;
+    width: 207px;
+    border:none;
+    background-color:rgb(255, 129, 223);
+    color: white;
+    transition: all .3s;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.contact_send_btn:hover {
+    color: rgb(204, 204, 204);
+}
+
+/* MEDIA FOR TELEFON ( MAX WIDTH )*/
+
+@media (max-width:500px) {
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .animeimg {
+        width: 150px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+}
